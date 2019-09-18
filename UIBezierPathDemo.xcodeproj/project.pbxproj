@@ -15,6 +15,16 @@
 		103618FB2330E74D00F6055A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 103618FA2330E74D00F6055A /* main.m */; };
 		103619052330E74D00F6055A /* UIBezierPathDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 103619042330E74D00F6055A /* UIBezierPathDemoTests.m */; };
 		103619102330E74D00F6055A /* UIBezierPathDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1036190F2330E74D00F6055A /* UIBezierPathDemoUITests.m */; };
+		103619202330E77700F6055A /* StrokeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1036191F2330E77700F6055A /* StrokeLineView.m */; };
+		103619232330EB1B00F6055A /* DrawPolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 103619222330EB1B00F6055A /* DrawPolygonView.m */; };
+		103619262330ED8600F6055A /* RectangularView.m in Sources */ = {isa = PBXBuildFile; fileRef = 103619252330ED8600F6055A /* RectangularView.m */; };
+		103619292330EEB600F6055A /* OvalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 103619282330EEB600F6055A /* OvalView.m */; };
+		1036192C2330F0EA00F6055A /* ArcLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1036192B2330F0EA00F6055A /* ArcLine.m */; };
+		1036192F2330F30900F6055A /* QuadCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1036192E2330F30900F6055A /* QuadCurveView.m */; };
+		103619322330F4D000F6055A /* ThirdOrderCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 103619312330F4D000F6055A /* ThirdOrderCurveView.m */; };
+		103619352330F61700F6055A /* InscribedCircleRectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 103619342330F61700F6055A /* InscribedCircleRectangleView.m */; };
+		103619382331BF6200F6055A /* RoundingCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 103619372331BF6200F6055A /* RoundingCornersView.m */; };
+		1036193B2331C2B800F6055A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1036193A2331C2B800F6055A /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,26 @@
 		1036190B2330E74D00F6055A /* UIBezierPathDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBezierPathDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1036190F2330E74D00F6055A /* UIBezierPathDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBezierPathDemoUITests.m; sourceTree = "<group>"; };
 		103619112330E74D00F6055A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1036191E2330E77700F6055A /* StrokeLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrokeLineView.h; sourceTree = "<group>"; };
+		1036191F2330E77700F6055A /* StrokeLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrokeLineView.m; sourceTree = "<group>"; };
+		103619212330EB1B00F6055A /* DrawPolygonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawPolygonView.h; sourceTree = "<group>"; };
+		103619222330EB1B00F6055A /* DrawPolygonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPolygonView.m; sourceTree = "<group>"; };
+		103619242330ED8600F6055A /* RectangularView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectangularView.h; sourceTree = "<group>"; };
+		103619252330ED8600F6055A /* RectangularView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectangularView.m; sourceTree = "<group>"; };
+		103619272330EEB600F6055A /* OvalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OvalView.h; sourceTree = "<group>"; };
+		103619282330EEB600F6055A /* OvalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OvalView.m; sourceTree = "<group>"; };
+		1036192A2330F0EA00F6055A /* ArcLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcLine.h; sourceTree = "<group>"; };
+		1036192B2330F0EA00F6055A /* ArcLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcLine.m; sourceTree = "<group>"; };
+		1036192D2330F30900F6055A /* QuadCurveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuadCurveView.h; sourceTree = "<group>"; };
+		1036192E2330F30900F6055A /* QuadCurveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuadCurveView.m; sourceTree = "<group>"; };
+		103619302330F4D000F6055A /* ThirdOrderCurveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdOrderCurveView.h; sourceTree = "<group>"; };
+		103619312330F4D000F6055A /* ThirdOrderCurveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdOrderCurveView.m; sourceTree = "<group>"; };
+		103619332330F61700F6055A /* InscribedCircleRectangleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InscribedCircleRectangleView.h; sourceTree = "<group>"; };
+		103619342330F61700F6055A /* InscribedCircleRectangleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InscribedCircleRectangleView.m; sourceTree = "<group>"; };
+		103619362331BF6200F6055A /* RoundingCornersView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundingCornersView.h; sourceTree = "<group>"; };
+		103619372331BF6200F6055A /* RoundingCornersView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundingCornersView.m; sourceTree = "<group>"; };
+		103619392331C2B700F6055A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1036193A2331C2B800F6055A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +131,7 @@
 		103618EA2330E74C00F6055A /* UIBezierPathDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1036191D2330E75C00F6055A /* View */,
 				103618EB2330E74C00F6055A /* AppDelegate.h */,
 				103618EC2330E74C00F6055A /* AppDelegate.m */,
 				103618EE2330E74C00F6055A /* ViewController.h */,
@@ -110,6 +141,8 @@
 				103618F62330E74D00F6055A /* LaunchScreen.storyboard */,
 				103618F92330E74D00F6055A /* Info.plist */,
 				103618FA2330E74D00F6055A /* main.m */,
+				103619392331C2B700F6055A /* SecondViewController.h */,
+				1036193A2331C2B800F6055A /* SecondViewController.m */,
 			);
 			path = UIBezierPathDemo;
 			sourceTree = "<group>";
@@ -130,6 +163,31 @@
 				103619112330E74D00F6055A /* Info.plist */,
 			);
 			path = UIBezierPathDemoUITests;
+			sourceTree = "<group>";
+		};
+		1036191D2330E75C00F6055A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1036191E2330E77700F6055A /* StrokeLineView.h */,
+				1036191F2330E77700F6055A /* StrokeLineView.m */,
+				103619212330EB1B00F6055A /* DrawPolygonView.h */,
+				103619222330EB1B00F6055A /* DrawPolygonView.m */,
+				103619242330ED8600F6055A /* RectangularView.h */,
+				103619252330ED8600F6055A /* RectangularView.m */,
+				103619272330EEB600F6055A /* OvalView.h */,
+				103619282330EEB600F6055A /* OvalView.m */,
+				1036192A2330F0EA00F6055A /* ArcLine.h */,
+				1036192B2330F0EA00F6055A /* ArcLine.m */,
+				1036192D2330F30900F6055A /* QuadCurveView.h */,
+				1036192E2330F30900F6055A /* QuadCurveView.m */,
+				103619302330F4D000F6055A /* ThirdOrderCurveView.h */,
+				103619312330F4D000F6055A /* ThirdOrderCurveView.m */,
+				103619332330F61700F6055A /* InscribedCircleRectangleView.h */,
+				103619342330F61700F6055A /* InscribedCircleRectangleView.m */,
+				103619362331BF6200F6055A /* RoundingCornersView.h */,
+				103619372331BF6200F6055A /* RoundingCornersView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +320,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1036192F2330F30900F6055A /* QuadCurveView.m in Sources */,
+				1036193B2331C2B800F6055A /* SecondViewController.m in Sources */,
+				103619382331BF6200F6055A /* RoundingCornersView.m in Sources */,
+				103619292330EEB600F6055A /* OvalView.m in Sources */,
 				103618F02330E74C00F6055A /* ViewController.m in Sources */,
+				103619322330F4D000F6055A /* ThirdOrderCurveView.m in Sources */,
+				1036192C2330F0EA00F6055A /* ArcLine.m in Sources */,
+				103619352330F61700F6055A /* InscribedCircleRectangleView.m in Sources */,
 				103618FB2330E74D00F6055A /* main.m in Sources */,
+				103619202330E77700F6055A /* StrokeLineView.m in Sources */,
+				103619262330ED8600F6055A /* RectangularView.m in Sources */,
+				103619232330EB1B00F6055A /* DrawPolygonView.m in Sources */,
 				103618ED2330E74C00F6055A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
