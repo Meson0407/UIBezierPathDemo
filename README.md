@@ -1,5 +1,6 @@
 # UIBezierPathDemo
-贝塞尔曲线demo\n
+贝塞尔曲线demo
+
 1.画直线
 ```
 - (void)drawRect:(CGRect)rect {
