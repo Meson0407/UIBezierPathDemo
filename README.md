@@ -22,6 +22,8 @@
     [path stroke]; // 用 stroke 得到的是不被填充的 view
 }
 ```
+![image](https://github.com/Meson0407/Image/blob/master/projectImages/WX20190918-102939%402x.png)
+
 2.画多边形
 ```
 - (void)drawRect:(CGRect)rect {
