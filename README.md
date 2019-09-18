@@ -1,6 +1,7 @@
 # UIBezierPathDemo
 贝塞尔曲线demo
 1.画直线
+```
 - (void)drawRect:(CGRect)rect {
     // Drawing code
     UIColor *color = [UIColor redColor];
@@ -19,3 +20,4 @@
     path.lineJoinStyle = kCGLineJoinRound; // 终点处理
     [path stroke]; // 用 stroke 得到的是不被填充的 view
 }
+```
