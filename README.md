@@ -46,6 +46,7 @@
 }
 ```
 ![image](https://github.com/Meson0407/Image/blob/master/projectImages/WX20190918-102954%402x.png)
+
 3.画矩形
 ```
 - (void)drawRect:(CGRect)rect {
@@ -75,7 +76,8 @@
 }
 
 ```
-![image](https://github.com/Meson0407/Image/blob/master/projectImages/WX20190918-103007%402x.png)
+![image](https://github.com/Meson0407/Image/blob/master/projectImages/WX20190918-103014%402x.png)
+
 5.画弧线
 ```
 - (void)drawRect:(CGRect)rect {
@@ -110,6 +112,7 @@
 }
 ```
 ![image](https://github.com/Meson0407/Image/blob/master/projectImages/WX20190918-103029%402x.png)
+
 7.三阶贝塞尔曲线
 ```
 - (void)drawRect:(CGRect)rect {
@@ -125,6 +128,7 @@
 }
 ```
 ![image](https://github.com/Meson0407/Image/blob/master/projectImages/WX20190918-103035%402x.png)
+
 8.切圆角
 ```
 - (void)drawRect:(CGRect)rect {
